@@ -4934,19 +4934,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\f.amorim.helfstein\\.nuget\\packages\\": {}
+    "C:\\Users\\Daniel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\f.amorim.helfstein\\Source\\Repos\\fhelfstein\\AcademiaAvanade\\AcademiaDeTestes.csproj",
+      "projectUniqueName": "C:\\TestePadrao\\DesafioHelfstein\\AcademiaDeTestes\\AcademiaDeTestes.csproj",
       "projectName": "AcademiaDeTestes",
-      "projectPath": "C:\\Users\\f.amorim.helfstein\\Source\\Repos\\fhelfstein\\AcademiaAvanade\\AcademiaDeTestes.csproj",
-      "packagesPath": "C:\\Users\\f.amorim.helfstein\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\f.amorim.helfstein\\Source\\Repos\\fhelfstein\\AcademiaAvanade\\obj\\",
+      "projectPath": "C:\\TestePadrao\\DesafioHelfstein\\AcademiaDeTestes\\AcademiaDeTestes.csproj",
+      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+      "outputPath": "C:\\TestePadrao\\DesafioHelfstein\\AcademiaDeTestes\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\f.amorim.helfstein\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4958,7 +4962,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -4970,7 +4973,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "BoDi": {
             "target": "Package",
@@ -5020,7 +5022,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
