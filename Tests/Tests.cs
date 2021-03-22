@@ -93,8 +93,8 @@ namespace AcademiaDeTestes.Tests
         [Test]
         public void Teste_1()  //Abrir um item da Home Page;
         {
-            driver.FindElement(By.XPath("(//div[@class='tab-content']//img)[1]")).Click();
-            Assert.IsTrue(driver.FindElement(By.XPath("//div[@class='fancybox-overlay fancybox-overlay-fixed']")).Displayed);
+            driver.FindElement(By.XPath("//ul[@id='homefeatured']/li[1]")).Click();
+            driver.PageSource.Contains("Model demo_1");      
         }
 
         [Test]
@@ -146,5 +146,4 @@ namespace AcademiaDeTestes.Tests
             driver.PageSource.Contains("Your order on My Store is complete.");
         }
     }
-
 }
